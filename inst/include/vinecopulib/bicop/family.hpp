@@ -26,7 +26,8 @@ enum class BicopFamily
     bb6,           ///< BB6 copula
     bb7,           ///< BB7 copula
     bb8,           ///< BB8 copula
-    tll           ///< Transformation local likelihood kernel estimator
+    tll,           ///< Transformation local likelihood kernel estimator
+    pppp           ///< PPPP copula
 };
 
 std::string get_family_name(BicopFamily family);
